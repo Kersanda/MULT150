@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 116382798}
   - component: {fileID: 116382797}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3461d464e584efd479f00616ef4c2010, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2337,7 +2337,7 @@ GameObject:
   - component: {fileID: 702762068}
   - component: {fileID: 702762067}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2454,7 +2454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3461d464e584efd479f00616ef4c2010, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2855,8 +2855,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822241337}
-  m_LocalRotation: {x: -0.11244395, y: -0.66287374, z: -0.103569895, w: 0.7329585}
-  m_LocalPosition: {x: 65.702515, y: -44.049347, z: -3.991745}
+  m_LocalRotation: {x: -0.0012994773, y: -0.9689921, z: -0.24688925, w: 0.00991462}
+  m_LocalPosition: {x: -15.864227, y: -24.84312, z: -17.10305}
   m_LocalScale: {x: 0.5000011, y: 0.68872786, z: 0.645973}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5170,7 +5170,6 @@ Transform:
   - {fileID: 1671697613}
   - {fileID: 641640623}
   - {fileID: 116382796}
-  - {fileID: 1828099851}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5206,6 +5205,7 @@ Transform:
   - {fileID: 676478065}
   - {fileID: 915687533}
   - {fileID: 1326398417}
+  - {fileID: 1828099851}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6314,7 +6314,7 @@ GameObject:
   - component: {fileID: 1746070253}
   - component: {fileID: 1746070252}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6431,7 +6431,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3461d464e584efd479f00616ef4c2010, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6671,7 +6671,7 @@ GameObject:
   - component: {fileID: 1828099853}
   - component: {fileID: 1828099852}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6685,12 +6685,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828099850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.36, y: 2.72, z: 4.93}
+  m_LocalPosition: {x: 6.004936, y: 37.43132, z: -57.62706}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1281032408}
-  m_RootOrder: 3
+  m_Father: {fileID: 1302614509}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1828099852
 Light:
@@ -7124,7 +7124,7 @@ GameObject:
   - component: {fileID: 1906259930}
   - component: {fileID: 1906259929}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7241,7 +7241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3461d464e584efd479f00616ef4c2010, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
