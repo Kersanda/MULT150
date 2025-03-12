@@ -8,6 +8,7 @@ public class Addition : MonoBehaviour
     public int b;
     public int c;
     public int sum;
+    
     // Start is called before the first frame update
     void Start()
     {
