@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChaosGoalScript : MonoBehaviour
 {
     private int collisionCount = 0;
-    public int collisionThreshold = 5;
+    public int collisionThreshold = 7;
     public bool isSolved = false;
     void OnTriggerEnter(Collider collider)
     {

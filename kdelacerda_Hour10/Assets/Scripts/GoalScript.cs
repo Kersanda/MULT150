@@ -5,13 +5,26 @@ using UnityEngine;
 public class GoalScript : MonoBehaviour
 {
     public bool isSolved = false;
+    public int chaosCounter=0;
     void OnTriggerEnter(Collider collider)
     {
         GameObject collidedWith = collider.gameObject;
         if(collidedWith.tag==gameObject.tag)
         {
+        if(collidedWith.tag=="Chaos")
+        {
+            chaosCounter++;
+            if(chaosCounter>=7)
+            {
+                isSolved=true;
+                GetComponent<Light>().enabled=true;
+            }
+        }
+        else if(collidedWith.tag!="Chaos")
+        {
             isSolved=true;
-            GetComponent<Light>().enabled=false;
+            GetComponent<Light>().enabled=false; 
+        }
             Destroy (collidedWith);
         }
     }
